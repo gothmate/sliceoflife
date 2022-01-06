@@ -1,0 +1,305 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: #282828;
+}
+
+.main-content {
+  overflow: hidden;
+}
+
+header {
+  position: relative;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .logo {
+  margin: 0 5rem;
+  font-size: 2rem;
+}
+header .logo .of {
+  color: #797878;
+}
+header .logo .dot {
+  color: #FF8C05;
+}
+header ul {
+  position: relative;
+  z-index: 2;
+  margin: 0 5rem;
+  display: flex;
+}
+header ul li {
+  list-style: none;
+  margin: 22px;
+}
+header ul li a {
+  text-decoration: none;
+  color: #282828;
+  font-weight: 700;
+  translation: 300ms ease-in-out;
+}
+header ul li a:hover {
+  color: #FF8C05;
+}
+header .bg {
+  position: absolute;
+  top: -25rem;
+  left: 0;
+  filter: brightness(0.8);
+  z-index: -1;
+}
+header img {
+  width: 100vw;
+  height: auto;
+}
+
+.circle {
+  position: absolute;
+  border-radius: 50%;
+  top: -240%;
+  right: -5%;
+  width: 50vw;
+  height: 50vw;
+  background: #ffffff52;
+  z-index: 0;
+}
+
+.chamada {
+  display: flex;
+  align-items: flex-end;
+  width: 100vw;
+  height: 70vh;
+}
+.chamada div {
+  margin: 0 0 2rem 5rem;
+}
+.chamada div h2 {
+  font-size: 3rem;
+}
+
+#menu {
+  text-align: center;
+  margin: 2rem 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+#menu h2 {
+  font-size: 3rem;
+  margin-bottom: 2.5rem;
+}
+
+.menu-std {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.menu-std .block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #F8F8F8;
+  padding: 3rem;
+  width: 42vw;
+  border-radius: 15px;
+  gap: 1.5rem;
+  text-align: left;
+  line-height: 200%;
+  box-shadow: 2px 2px 10px #28282854;
+}
+.menu-std .block img {
+  width: 250px;
+  border-radius: 15px;
+}
+
+.divider {
+  height: 3px;
+  width: calc(100vw - 6rem);
+  background: #797878;
+  margin: 3rem;
+}
+
+#services h3 {
+  text-align: center;
+  font-size: 3rem;
+}
+#services .cupom {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+#services .cupom .desconto {
+  position: relative;
+  margin: 2rem 5rem;
+  width: 350px;
+  height: 350px;
+  overflow: hidden;
+  color: #ffffffab;
+}
+#services .cupom .desconto img {
+  width: 350px;
+  filter: brightness(0.6);
+}
+#services .cupom .desconto .text-off {
+  position: absolute;
+  top: 2rem;
+  left: 1.3rem;
+}
+#services .cupom .desconto .text-off h2 {
+  font-size: 2rem;
+}
+#services .cupom .desconto .text-off p {
+  font-size: 1.3rem;
+  line-height: 200%;
+}
+#services .cupom .desconto .text-off span {
+  font-size: 4rem;
+  font-weight: 700;
+}
+#services .cupom .desconto .text-off button {
+  padding: 0.5rem 1rem;
+  color: #F8F8F8;
+  background: #FF8C05;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 10px;
+  margin-top: 1rem;
+}
+#services .cupom .text {
+  width: 50%;
+}
+#services .cupom .text h2 {
+  font-size: 3rem;
+}
+#services .cupom .text p {
+  line-height: 200%;
+  font-size: 2rem;
+}
+
+#testimonials {
+  text-align: center;
+  font-size: 1rem;
+  margin: 4rem;
+}
+#testimonials h2 {
+  margin: 2rem 0;
+  font-size: 3rem;
+}
+#testimonials .testimonials {
+  display: flex;
+  gap: 2rem;
+  justify-content: space-evenly;
+}
+#testimonials .testimonials .testimonial {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+#testimonials .testimonials .author {
+  display: flex;
+  margin-top: 1rem;
+}
+#testimonials .testimonials .author img {
+  width: 3rem;
+  border-radius: 50%;
+}
+#testimonials .testimonials .author .name {
+  margin-left: 1rem;
+  text-align: left;
+}
+
+#contact {
+  display: flex;
+  padding: 1rem 3rem;
+  background: #FF8C05;
+}
+#contact .contact-text {
+  width: 60%;
+  font-size: 2.5rem;
+}
+#contact .contact-text input {
+  padding: 0.5rem 1rem;
+  border: none;
+  background: #F8F8F8;
+  border-radius: 5px;
+  font-size: 1.3rem;
+  width: 30ch;
+  color: #282828;
+  margin-top: 1rem;
+}
+#contact .contact-text #submit {
+  background: #282828;
+  color: #FF8C05;
+}
+#contact .contact-text #submit:hover {
+  filter: brightness(1.2);
+  cursor: pointer;
+}
+
+footer {
+  background: #282828;
+  color: #F8F8F8;
+  padding: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .social {
+  display: flex;
+  align-items: center;
+}
+footer .social p {
+  margin-right: 1rem;
+}
+footer .social a {
+  text-decoration: none;
+  color: #F8F8F8;
+}
+footer .social .icons {
+  font-size: 2rem;
+  margin: 0 1rem;
+}
+footer .social .icon-facebook2 {
+  transition: 500ms ease-in-out;
+}
+footer .social .icon-facebook2:hover {
+  color: #3e96df;
+}
+footer .social .icon-instagram {
+  transition: 500ms ease-in-out;
+}
+footer .social .icon-instagram:hover {
+  color: #bf3edf;
+}
+footer .social .icon-youtube {
+  transition: 500ms ease-in-out;
+}
+footer .social .icon-youtube:hover {
+  color: #df3e3e;
+}
+footer .signature .info {
+  margin-bottom: 2rem;
+}
+footer .signature a {
+  text-decoration: none;
+  color: #89fd2a;
+  border: 2px solid #89fd2a;
+  padding: 0.2rem;
+  margin: 2px;
+}
+
+/*# sourceMappingURL=style.css.map */
