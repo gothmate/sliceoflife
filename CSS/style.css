@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #282828;
 }
 
@@ -32,7 +32,7 @@ header .logo .of {
   color: #797878;
 }
 header .logo .dot {
-  color: #ff8c05;
+  color: #FF8C05;
 }
 header ul {
   position: relative;
@@ -51,7 +51,7 @@ header ul li a {
   translation: 300ms ease-in-out;
 }
 header ul li a:hover {
-  color: #ff8c05;
+  color: #FF8C05;
 }
 header .bg {
   position: absolute;
@@ -110,7 +110,7 @@ header img {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #f8f8f8;
+  background: #F8F8F8;
   padding: 3rem;
   width: 42vw;
   border-radius: 15px;
@@ -171,8 +171,8 @@ header img {
 }
 #services .cupom .desconto .text-off button {
   padding: 0.5rem 1rem;
-  color: #f8f8f8;
-  background: #ff8c05;
+  color: #F8F8F8;
+  background: #FF8C05;
   font-size: 1.5rem;
   border: none;
   border-radius: 10px;
@@ -225,7 +225,7 @@ header img {
 #contact {
   display: flex;
   padding: 1rem 3rem;
-  background: #ff8c05;
+  background: #FF8C05;
 }
 #contact .contact-text {
   width: 60%;
@@ -234,7 +234,7 @@ header img {
 #contact .contact-text input {
   padding: 0.5rem 1rem;
   border: none;
-  background: #f8f8f8;
+  background: #F8F8F8;
   border-radius: 5px;
   font-size: 1.3rem;
   width: 30ch;
@@ -243,7 +243,7 @@ header img {
 }
 #contact .contact-text #submit {
   background: #282828;
-  color: #ff8c05;
+  color: #FF8C05;
 }
 #contact .contact-text #submit:hover {
   filter: brightness(1.2);
@@ -252,7 +252,7 @@ header img {
 
 footer {
   background: #282828;
-  color: #f8f8f8;
+  color: #F8F8F8;
   padding: 3rem;
   display: flex;
   justify-content: space-between;
@@ -267,7 +267,7 @@ footer .social p {
 }
 footer .social a {
   text-decoration: none;
-  color: #f8f8f8;
+  color: #F8F8F8;
 }
 footer .social .icons {
   font-size: 2rem;
